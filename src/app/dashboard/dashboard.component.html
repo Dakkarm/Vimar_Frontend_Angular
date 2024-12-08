@@ -1,0 +1,33 @@
+
+  <div id="dashboard">
+    <h1>Pannello di Controllo</h1>
+    <div class="grid-container">
+      <!-- Numero Totale delle Richieste -->
+      <div class="card">
+        <h2>Statistiche sulle Richieste</h2>
+        <p>Richieste Conversazione Libera: <span id="free-requests"></span></p>
+        <p>Richieste Conversazione Guidata: <span id="guided-requests"></span></p>
+        <p>Numero Totale delle Richieste: <span id="total-requests"></span></p>
+      </div>
+
+      <!-- Statistiche sulle Parole Chiave -->
+      <div class="card">
+        <h2>Statistiche sulle Parole Chiave</h2>
+        <canvas id="keyword-chart"></canvas>
+      </div>
+
+      <!-- Andamento Giornaliero -->
+      <div class="card">
+        <h2>Andamento Giornaliero</h2>
+        <canvas id="daily-trend-chart"></canvas>
+      </div>
+
+      <!-- Statistiche sul Feedback -->
+      <div class="card">
+        <h2>Statistiche sul Feedback</h2>
+        <p>Feedback Positivo: <span id="positive-feedback"></span></p>
+        <p>Feedback Negativo: <span id="negative-feedback"></span></p>
+        <canvas id="feedback-pie-chart"></canvas>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,43 @@
+<div class="main-container">
+  <nav class="navbar">
+    <div class="section">
+      <button>Conversazione Libera</button>
+      <button>Conversazione Guidata</button>
+    </div>
+    <div class="section">
+      <h2>Conversazioni</h2>
+      <ul>
+        <li>Conversazione 1</li>
+        <li>Conversazione 2</li>
+        <li>Conversazione 3</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Admin</h2>
+      <a (click)="goToDashboard()" class="btn">Area Riservata</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Vimar GENIALE</h1>
+    <div class="conversation-section">
+      <div class="conversation">
+        <div class="user-message">
+          <p>Utente: Ciao, come posso aiutarti oggi?</p>
+        </div>
+        <div class="site-response">
+          <p>Sito: Benvenuto! Come posso assisterti?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="messagebar">
+  <div class="bar-wrapper">
+    <input type="text" placeholder="Inserisci il messaggio...">
+    <button>
+      <span class="material-symbols-outlined">send</span>
+    </button>
+  </div>
+</div>
